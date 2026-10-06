@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tuku Dimsum - Dim Sum Restaurant</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                🥟 TUKU DIMSUM
+            </div>
+
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#location">Location</a></li>
+            </ul>
+
+            <a href="#menu" class="btn-order">Order Now</a>
+
+        </nav>
+    </header>
+
+
+    <!-- HERO -->
+    <main>
+
+        <section id="home" class="hero">
+
+            <div class="hero-content">
+
+                <p class="subtitle">WELCOME TO TUKU DIMSUM</p>
+
+                <h1>
+                    Dimsum Enak,<br>
+                    Hangat & Bikin Nagih!
+                </h1>
+
+                <p>
+                    Nikmati berbagai pilihan dimsum lezat
+                    dengan rasa yang cocok untuk menemani
+                    waktu santai bersama teman dan keluarga.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#menu" class="btn-primary">
+                        Lihat Menu
+                    </a>
+
+                    <a href="#location" class="btn-secondary">
+                        📍 Lokasi Kami
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- MENU -->
+        <section id="menu" class="menu-section">
+
+            <div class="section-title">
+                <p>OUR MENU</p>
+                <h2>Menu Favorit Tuku Dimsum</h2>
+                <span>
+                    Pilihan dimsum lezat untuk menemani harimu.
+                </span>
+            </div>
+
+
+            <div class="menu-container">
+
+                <!-- MENU 1 -->
+                <article class="menu-card">
+
+                    <div class="menu-image">
+                        <img href="Resep Siomay Ayam yang Gurih Lembut untuk Suguhan Tamu.jpg" alt="Siomay Ayam">
+                    </div>
+
+                    <div class="menu-content">
+
+                        <h3>Siomay Ayam</h3>
+
+                        <p>
+                            Siomay ayam lembut dengan cita rasa
+                            gurih dan nikmat.
+                        </p>
+
+                        <div class="menu-bottom">
+                            <strong>Rp15.000</strong>
+
+                            <button onclick="pesan('Siomay Ayam')">
+                                Pesan
+                            </button>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- MENU 2 -->
+                <article class="menu-card">
+
+                    <div class="menu-image">
+                        🥟
+                    </div>
+
+                    <div class="menu-content">
+
+                        <h3>Hakau Udang</h3>
+
+                        <p>
+                            Hakau dengan kulit tipis dan
+                            isian udang yang lezat.
+                        </p>
+
+                        <div class="menu-bottom">
+                            <strong>Rp18.000</strong>
+
+                            <button onclick="pesan('Hakau Udang')">
+                                Pesan
+                            </button>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- MENU 3 -->
+                <article class="menu-card">
+
+                    <div class="menu-image">
+                        🥟
+                    </div>
+
+                    <div class="menu-content">
+
+                        <h3>Dimsum Mentai</h3>
+
+                        <p>
+                            Dimsum lembut dengan saus mentai
+                            creamy dan gurih.
+                        </p>
+
+                        <div class="menu-bottom">
+                            <strong>Rp20.000</strong>
+
+                            <button onclick="pesan('Dimsum Mentai')">
+                                Pesan
+                            </button>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- MENU 4 -->
+                <article class="menu-card">
+
+                    <div class="menu-image">
+                        🥠
+                    </div>
+
+                    <div class="menu-content">
+
+                        <h3>Lumpia Udang</h3>
+
+                        <p>
+                            Lumpia renyah dengan isian udang
+                            yang gurih dan lezat.
+                        </p>
+
+                        <div class="menu-bottom">
+                            <strong>Rp16.000</strong>
+
+                            <button onclick="pesan('Lumpia Udang')">
+                                Pesan
+                            </button>
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ABOUT -->
+        <section id="about" class="about-section">
+
+            <div class="about-image">
+                🥟
+            </div>
+
+            <div class="about-content">
+
+                <p class="subtitle">ABOUT US</p>
+
+                <h2>
+                    Kenapa Harus Tuku Dimsum?
+                </h2>
+
+                <p>
+                    Tuku Dimsum adalah tempat untuk menikmati
+                    berbagai macam dimsum dengan rasa yang
+                    lezat dan harga yang bersahabat.
+                </p>
+
+                <p>
+                    Cocok untuk makan bersama keluarga,
+                    teman, maupun untuk takeaway.
+                </p>
+
+                <div class="features">
+
+                    <div>
+                        <span>🥟</span>
+                        <h3>Fresh</h3>
+                        <p>Dimsum disajikan fresh.</p>
+                    </div>
+
+                    <div>
+                        <span>💰</span>
+                        <h3>Terjangkau</h3>
+                        <p>Harga bersahabat.</p>
+                    </div>
+
+                    <div>
+                        <span>❤️</span>
+                        <h3>Lezat</h3>
+                        <p>Rasa bikin nagih.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- LOCATION -->
+        <section id="location" class="location-section">
+
+            <div class="section-title">
+
+                <p>OUR LOCATION</p>
+
+                <h2>
+                    Kunjungi Tuku Dimsum
+                </h2>
+
+                <span>
+                    Kami siap menyambut kamu!
+                </span>
+
+            </div>
+
+
+            <div class="location-box">
+
+                <div class="location-info">
+
+                    <h3>📍 Alamat</h3>
+
+                    <p>
+                        Kalangan, Tirtohargo, Kretek,
+                        Bantul Regency, Special Region of
+                        Yogyakarta 55772
+                    </p>
+
+
+                    <h3>📞 Telepon</h3>
+
+                    <p>
+                        0812-5381-7234
+                    </p>
+
+
+                    <h3>🍽️ Layanan</h3>
+
+                    <p>
+                        Dine-in & Takeaway
+                    </p>
+
+
+                    <a
+                        href="https://www.google.com/maps/search/?api=1&query=273W%2B2C%20Tirtohargo%2C%20Bantul%20Regency"
+                        target="_blank"
+                        class="btn-primary"
+                    >
+                        📍 Buka Google Maps
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="footer-content">
+
+            <h2>🥟 TUKU DIMSUM</h2>
+
+            <p>
+                Dimsum lezat untuk menemani setiap momen.
+            </p>
+
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#menu">Menu</a>
+                <a href="#about">About</a>
+                <a href="#location">Location</a>
+            </div>
+
+            <hr>
+
+            <p>
+                © 2026 Tuku Dimsum. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
